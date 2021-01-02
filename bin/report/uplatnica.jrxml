@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.12.0.final using JasperReports Library version 6.12.1-ac0eebdb29e4c0985457bab279a6db744d661530  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Uplatnica" pageWidth="623" pageHeight="1720" columnWidth="585" leftMargin="19" rightMargin="19" topMargin="19" bottomMargin="19" uuid="a9a97859-36eb-40d3-932d-d95f48e2c67a">
+	<parameter name="nazivPlatioca" class="java.lang.String"/>
+	<parameter name="svrhaPlacanja" class="java.lang.String"/>
+	<parameter name="nazivPrimaocaPlacanja" class="java.lang.String"/>
+	<parameter name="transakcioniRacunPlatioca" class="java.lang.String"/>
+	<parameter name="pozivNaBrojZaduzenja" class="java.lang.String"/>
+	<parameter name="iznos" class="java.lang.String"/>
+	<parameter name="sifraPlacanja" class="java.lang.String"/>
+	<parameter name="transakcioniRacunPrimaocaPlacanja" class="java.lang.String"/>
+	<parameter name="pozivNaBrojOdobrenja" class="java.lang.String"/>
+	<parameter name="modelGornji" class="java.lang.String"/>
+	<parameter name="modelDonji" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="1682" splitType="Stretch">
+			<textField>
+				<reportElement x="31" y="62" width="263" height="31" uuid="659220d3-86ec-4632-8940-d9fabfc0d594">
+					<property name="com.jaspersoft.studio.element.name" value="NazivPlatioca"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Consolas" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{nazivPlatioca}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="31" y="124" width="263" height="42" uuid="b95f264f-074e-488f-8502-b9d4e06343da">
+					<property name="com.jaspersoft.studio.element.name" value="SvrhaPlacanja"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Consolas" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{svrhaPlacanja}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="31" y="187" width="263" height="42" uuid="c03f2d38-4cb0-420d-a646-10ded3285dbf">
+					<property name="com.jaspersoft.studio.element.name" value="NazivPrimaoca"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Consolas" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{nazivPrimaocaPlacanja}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="323" y="39" width="263" height="22" uuid="a70e37ea-e2b2-4554-b248-0fa0e4648b1d">
+					<property name="com.jaspersoft.studio.element.name" value="TransakcioniRacunPlatioca"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Consolas" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{transakcioniRacunPlatioca}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="348" y="110" width="172" height="22" uuid="bab2db9c-6642-437b-b171-9578e4b4e739">
+					<property name="com.jaspersoft.studio.element.name" value="Iznos"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Consolas" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{iznos}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="147" width="266" height="22" uuid="5e22a0e9-4e36-4684-a766-a2718a1842e2">
+					<property name="com.jaspersoft.studio.element.name" value="TransakcioniRacunPrimaoca"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Consolas" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{transakcioniRacunPrimaocaPlacanja}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="379" y="184" width="206" height="22" uuid="1e40e164-8f71-4867-8c6e-f2fc4696e6bb">
+					<property name="com.jaspersoft.studio.element.name" value="PozivNaBrojOdobrenja"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Consolas" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{pozivNaBrojOdobrenja}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="379" y="71" width="206" height="22" uuid="4de75379-8d7f-4347-b52e-55b1212f4cd2">
+					<property name="com.jaspersoft.studio.element.name" value="PozivNaBrojZaduzenja"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Consolas" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{pozivNaBrojZaduzenja}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="528" y="110" width="45" height="22" uuid="2dbe1a71-5bb6-4898-88cf-5e100dc7c35d">
+					<property name="com.jaspersoft.studio.element.name" value="SifraPlacanja"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Consolas" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{sifraPlacanja}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="323" y="71" width="45" height="22" uuid="d7c2a875-1972-49a2-a3e0-fdd066043b65">
+					<property name="com.jaspersoft.studio.element.name" value="ModelGornji"/>
+					<property name="com.jaspersoft.studio.unit.y" value="cm"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Consolas" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{modelGornji}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="323" y="184" width="45" height="22" uuid="b5802d03-d71b-4456-ac7d-f7014d571740">
+					<property name="com.jaspersoft.studio.element.name" value="ModelDonji"/>
+					<property name="com.jaspersoft.studio.unit.y" value="cm"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Consolas" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{modelDonji}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
