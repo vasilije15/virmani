@@ -1,2 +1,4 @@
 Java Swing GUI example using Jasper Reports
-An App that allows user to input data which is used for a payment slip printing on a dot matrix printer
+(Java program za generisanje virmana za naplatu u PDF)
+
+An App that allows user to input data which is used to print a payment slip on a dot matrix printer
